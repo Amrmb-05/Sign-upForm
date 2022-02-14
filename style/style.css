@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(../Norse-Bold.woff);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.img img {
+    width:35vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo-bg {
+    background-color: rgb(32, 29, 29);
+    opacity: 0.5;
+    position: absolute;
+    height: 120px;
+    width: 35%;
+    top: 110px;
+
+}
+.logo p {
+    position: absolute;
+    top: 16px;
+    left: 27vw;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: "Norse Bold";
+   
+}
+
+
+
+.logo img {
+    position: absolute;
+    left: 20vw;
+    top: 10px;
+    height:100px;
+    width: 100px
+}
+
+.container {
+    position:relative;
+    left: 35vw;
+    width: 65vw;
+}
+
+.top, .bottom {
+    background-color: whitesmoke;
+    font-weight: bold;
+    
+
+}
+
+.top, .middle, .bottom {
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+.middle {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 5px 30px black;
+}
+
+.bottom {
+    padding-bottom: 5rem;
+    opacity:0.6
+}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 0.5rem; 
+    margin-top: 1rem;
+}
+
+.form-row input {
+    width: 80%;
+    font-size: 1rem;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bottom button {
+    background-color: #596D48;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 8px 24px;
+    margin-bottom: 24px;
+}
+
+.bottom a {
+    color: #596D48;
+}
+
+input:focus {
+    border-style: inset;
+    outline-color: #596D48;
+}
+
+.error:invalid {
+    border-style: inset;
+    outline-color: red;
+}
+
+label {
+    font-family:'Courier New', Courier, monospace;
+}
