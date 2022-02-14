@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Norse Bold";
-    src: url(../Norse-Bold.woff);
+    src: url(../fonts/Norse-Bold.woff);
 }
 
 
@@ -60,7 +60,7 @@ body {
 .top, .bottom {
     background-color: whitesmoke;
     font-weight: bold;
-    
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -80,7 +80,7 @@ body {
 
 .bottom {
     padding-bottom: 5rem;
-    opacity:0.6
+    opacity:0.8
 }
 .form-row {
     display: flex;
@@ -111,8 +111,17 @@ form {
     margin-bottom: 24px;
 }
 
+.bottom button:hover {
+    background-color: white;
+    color:#596D48
+}
+
 .bottom a {
     color: #596D48;
+}
+
+.bottom a:hover {
+    color: black
 }
 
 input:focus {
